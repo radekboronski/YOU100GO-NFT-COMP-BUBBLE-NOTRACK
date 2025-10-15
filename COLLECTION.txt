@@ -1,0 +1,16 @@
+   ──────────────────────────────────────────────────────────────────────
+    COLLECTION_MINT = "7tAVMRJ8xkbgwDiDTR7z2QL6cNWAzTofPRjaXiMXcmn8"
+    METADATA_ACCOUNT = "8xN1auiZXvAogfeGh9cpjz5Wfu9DkZNfkRB6m4n8wGQG"
+    EDITION_ACCOUNT = "3AzCE6N2viAaJ3dp95aQNWawdJUPCpMqM9mFenrg3KvU"
+    ──────────────────────────────────────────────────────────────────────
+
+
+
+    ──────────────────────────────────────────────────────────────────────
+    MERKLE_TREE = "EmBjTBqiCyuoCTQ2Q4tc4eQXHN7wyQ9nryDMqnCg6Zfj"
+    COLLECTION_MINT = "7tAVMRJ8xkbgwDiDTR7z2QL6cNWAzTofPRjaXiMXcmn8"
+    CONFIG_PDA = "6SpncsG92XxXPjmvGui3Qe6Fb39Gi1Fme6TFLEHHbq9N"
+    ──────────────────────────────────────────────────────────────────────
+
+
+

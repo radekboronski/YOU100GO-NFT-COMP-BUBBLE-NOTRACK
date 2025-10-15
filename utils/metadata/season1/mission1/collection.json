@@ -1,0 +1,25 @@
+{
+  "name": "YOU100GO Badges",
+  "symbol": "YOU100GO",
+  "description": "Official YOU100GO achievement badge collection. Season 1",
+  "image": "Season1.png",
+  "animation_url": null,
+  "external_url": "https://you100go.com",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "Season1.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "Ec5vEVZzizHs1XchX3UGVScX1WeRVcXxMPCh5jKDc8qv",
+        "share": 100
+      }
+    ]
+  },
+  "seller_fee_basis_points": 500
+}

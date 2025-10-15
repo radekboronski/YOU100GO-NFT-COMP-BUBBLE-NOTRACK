@@ -1,0 +1,28 @@
+{
+  "name": "Y100GO Badge #1-1-4",
+  "symbol": "Y100BADGE",
+  "description": "Season 1, Mission 1",
+  "image": "https://green-careful-bison-571.mypinata.cloud/ipfs/bafybeigbzhtzgihchc7q3frrswwrzbde534clc36cg4jamsxvrp6qezpma/4.png",
+  "attributes": [
+    {
+      "trait_type": "Badge ID",
+      "value": "1-1-4"
+    },
+    {
+      "trait_type": "Season",
+      "value": "1"
+    },
+    {
+      "trait_type": "Mission",
+      "value": "1"
+    },
+    {
+      "trait_type": "Position",
+      "value": "4"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

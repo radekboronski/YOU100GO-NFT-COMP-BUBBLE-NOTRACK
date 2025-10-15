@@ -16,7 +16,7 @@ import { PROGRAM_ID as BUBBLEGUM_PROGRAM_ID } from "@metaplex-foundation/mpl-bub
 // ═══════════════════════════════════════════════════════════
 
 // OPCJA 1: ~4000 badges
-const MAX_DEPTH = 12;
+const MAX_DEPTH = 14;
 const MAX_BUFFER_SIZE = 64;
 const CANOPY_DEPTH = 0;
 
