@@ -1,5 +1,3 @@
-import * as web3 from "@solana/web3.js";
-import * as anchor from "@coral-xyz/anchor";
 import * as anchor from "@coral-xyz/anchor";
 import { 
   PublicKey, 
@@ -12,7 +10,6 @@ import {
   createAllocTreeIx,
 } from "@solana/spl-account-compression";
 import { PROGRAM_ID as BUBBLEGUM_PROGRAM_ID } from "@metaplex-foundation/mpl-bubblegum";
-import type { Y100goBubblegumBadge } from "../target/types/y100go_bubblegum_badge";
 
 // ═══════════════════════════════════════════════════════════
 //   🎯 KONFIGURACJA
@@ -36,11 +33,6 @@ const formatUsd = (lamports: number, price: number) =>
   ((lamports / LAMPORTS_PER_SOL) * price).toFixed(4);
 
 describe("🏗️ Setup - Merkle Tree", () => {
-  // Configure the client to use the local cluster
-  anchor.setProvider(anchor.AnchorProvider.env());
-
-  const program = anchor.workspace.Y100goBubblegumBadge as anchor.Program<Y100goBubblegumBadge>;
-  
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
 

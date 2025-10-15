@@ -2,7 +2,7 @@ use anchor_lang::prelude::*;
 use mpl_bubblegum::instructions::MintToCollectionV1CpiBuilder;
 use mpl_bubblegum::types::{MetadataArgs, Creator, TokenProgramVersion, TokenStandard};
 
-declare_id!("B4xBYJcwRj1C722z7yTNog9aNfrKG2MvAxejkaJHK3xz");
+declare_id!("CPQ675bubG8nKQ31vPQDERePWEiRpv2VuC7KYZMJ9y1r");
 
 #[error_code]
 pub enum ErrorCode {
@@ -54,7 +54,6 @@ pub mod y100go_bubblegum_badge {
 
         let leaf_index = config.total_minted;
         let collection_mint = config.collection_mint;
-        let config_bump = config.bump;
 
         // Metadata
         let metadata = MetadataArgs {
